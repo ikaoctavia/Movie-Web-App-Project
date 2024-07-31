@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <header>
+        <nav>
+            <div class="logo">
+                <p>Movie Web App</p>
+            </div>
+            <ul>
+                <li><a href="#" onclick="setActive(this, 'home')">Home</a></li>
+                <li><a href="#" onclick="setActive(this, 'now-playing')">Now Playing</a></li>
+                <li><a href="#" onclick="setActive(this, 'popular')">Popular</a></li>
+                <li><a href="#" onclick="setActive(this, 'top-rated')">Top Rated</a></li>
+                <li><a href="#" onclick="setActive(this, 'trending')">Trending</a></li>
+                <li class="right">
+                    <form action="#" id="form">
+                        <input type="text" id="search" class="search" placeholder="Search Movie">
+                    </form>
+                </li>
+            </ul>
+        </nav>  
+    </header>
+
+    <main id="main"></main> 
+
+    <footer>
+        <div>Copyright &copy; Ika Octavia 2024</div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
